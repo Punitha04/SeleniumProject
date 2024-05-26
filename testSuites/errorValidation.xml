@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+	<groups>
+	<run>
+		<include name="ErrorHandling"/>
+	</run>
+</groups>
+
+		<listeners>
+	<listener class-name="Mydemo.TestComponents.Listeners"/>
+</listeners>
+	
+ <test thread-count="5" name="Test">
+    <classes>
+      <class name="Mydemo.SelinumFramewoek.SubmitOrderTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test1">
+    <classes>
+      
+      <class name="Mydemo.SelinumFramewoek.ErrorValidations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

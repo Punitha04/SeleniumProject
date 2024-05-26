@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T18:29:26 CDT" name="Suite" finished-at="2024-05-25T18:29:53 CDT" duration-ms="26528">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" name="LoginErrorValidation" class="Mydemo.SelinumFramewoek.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" name="submitOrder" class="Mydemo.SelinumFramewoek.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-05-25T18:29:26 CDT" name="ErrorTest" finished-at="2024-05-25T18:29:43 CDT" duration-ms="16434">
+      <class name="Mydemo.SelinumFramewoek.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:26 CDT" name="launchApplication" finished-at="2024-05-25T18:29:32 CDT" duration-ms="5955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:32 CDT" name="LoginErrorValidation" finished-at="2024-05-25T18:29:33 CDT" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:33 CDT" name="tearDown" finished-at="2024-05-25T18:29:34 CDT" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:34 CDT" name="launchApplication" finished-at="2024-05-25T18:29:39 CDT" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:39 CDT" name="ProductErrorValidation" finished-at="2024-05-25T18:29:42 CDT" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mydemo.SelinumFramewoek.ErrorValidations@7dfd3c81]" started-at="2024-05-25T18:29:42 CDT" name="tearDown" finished-at="2024-05-25T18:29:43 CDT" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Mydemo.SelinumFramewoek.ErrorValidations -->
+    </test> <!-- ErrorTest -->
+    <test started-at="2024-05-25T18:29:26 CDT" name="Test" finished-at="2024-05-25T18:29:53 CDT" duration-ms="26528">
+      <class name="Mydemo.SelinumFramewoek.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:27 CDT" name="launchApplication" finished-at="2024-05-25T18:29:32 CDT" duration-ms="5705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:32 CDT" name="submitOrder" data-provider="getData" finished-at="2024-05-25T18:29:36 CDT" duration-ms="4150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:36 CDT" name="tearDown" finished-at="2024-05-25T18:29:37 CDT" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:37 CDT" name="launchApplication" finished-at="2024-05-25T18:29:42 CDT" duration-ms="4512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:42 CDT" name="submitOrder" data-provider="getData" finished-at="2024-05-25T18:29:46 CDT" duration-ms="4002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sudha1997@, product=ADIDAS ORIGINAL, email=postm1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:46 CDT" name="tearDown" finished-at="2024-05-25T18:29:47 CDT" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:47 CDT" name="launchApplication" finished-at="2024-05-25T18:29:51 CDT" duration-ms="4450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:51 CDT" name="OrderHistoryTest" finished-at="2024-05-25T18:29:52 CDT" depends-on-methods="Mydemo.SelinumFramewoek.SubmitOrderTest.submitOrder" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Mydemo.SelinumFramewoek.SubmitOrderTest@52f27fbd]" started-at="2024-05-25T18:29:52 CDT" name="tearDown" finished-at="2024-05-25T18:29:53 CDT" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Mydemo.SelinumFramewoek.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

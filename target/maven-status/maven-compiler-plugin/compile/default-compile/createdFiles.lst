@@ -1,0 +1,8 @@
+Mydemo\PageObject\LandingPage.class
+Mydemo\resources\ExtentReporterNG.class
+AbstractComponents\AbstractComponent.class
+Mydemo\PageObject\CartPage.class
+Mydemo\PageObject\ConfirmationPage.class
+Mydemo\PageObject\CheckoutPage.class
+Mydemo\PageObject\OrderPage.class
+Mydemo\PageObject\ProductCatalogue.class
